@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Podcast</title>
+<link rel="stylesheet" href="./styles/styles.css">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet"> <!-- ruta absoluta porque va directo a la pag -->
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header> 
+        <nav class="menu-var">        
+        <div class="logo" >
+        <img src="./images/logo.svg"  alt="logo de la pagina">
+        </div>
+        <input type="checkbox" class="check"  id="boton-menu" name="boton-menu">
+        <div class="hamburguesa">        
+        <label for="boton-menu" > <img src="./images/hamburguesa.png" alt="menu hamburguesa"></label>
+        </div>
+        <div class="cerrar">
+        <label for="boton-menu"><img src="./images/cerrar.png" alt=""></label>
+        </div>
+        <ul class="menu" id="menu">
+        <li><a href="#episodios">EPISODIOS</a></li>
+        <li><a href="#nosotros">NOSOTROS</a></li>
+        <li><a href="#entrevistas">ENTREVISTAS</a></li>
+        <li><a href="#topicos">TOPICOS</a></li>
+        </ul>
+        </nav>
+</header>
+
+<main>
+
+<section class="container-title">
+<h1 class="title" >Hello  <span class="tachado"> world  </span> </h1> <h1 class="subtitle"> pale blue dot.</h1>
+<p class="parrafo">Un podcast que explora el mundo de la programacion y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+</section>
+
+<button class="boton-conoce">CONOCÉ MAS</button>
+
+<section class="episodios" id="episodios">
+        <h2 class="episodios-title">Episodios</h2>
+        <div class="episodios-album">
+                <iframe class="album-1" src="https://open.spotify.com/embed-podcast/episode/6eCHJ8yOYtksW8OT93Dbdu"  height="232" allow="encrypted-media"></iframe>    
+                <iframe class="album-2" src="https://open.spotify.com/embed-podcast/episode/2Hn8oHQ3EgVTtg8ysqfZco"  height="232" allow="encrypted-media"></iframe>
+                <iframe class="album-3" src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"  height="232" allow="encrypted-media"></iframe>
+                <iframe class="album-4" src="https://open.spotify.com/embed-podcast/episode/5mddqHiI96V0ZMdMidn3WW"  height="232" allow="encrypted-media"></iframe>
+        </div>
+</section>
+
+<aside class="history">
+<aside class="history-section">
+<img class= "history-image" src="./images/phone.png" alt="Telefono celular">
+<aside class="history-container-section">
+<article class="history-container-title">
+<h2 class="history-title" id="nosotros"> De dónde </h2> <h2 class="history-subtitle">venimos</h2> 
+</article>
+<p class="history-parrafo">
+Nuestras posturas, nuestra importancia personal imaginada, el engaño de que tenemos una posición privilegiada en el Universo, se ven desafiados por este punto de luz pálida.
+<br> <br> Nuestro planeta es una mota solitaria en la gran oscuridad cósmica envolvente. En nuestra oscuridad, en toda esta inmensidad, no hay indicios de que venga ayuda de otro lugar para salvarnos de nosotros mismos.
+</p>
+</aside>
+</aside>
+</aside>
+
+<aside class="invitadas" id="entrevistas">
+<article class="container-invitadas-title">
+        <h2 class="invitadas-title"> Invitadas/os </h2> <h2 class="invitadas-subtitle"> estelares</h2>
+</article>
+<div class="combo-imagen1">
+<img class="invitadas-images" src="./images/grace-hopper.png" alt="imagen grace-hopper">
+<img class="invitadas-images" src="./images/Katie-Bouman.png" alt="imagen Katie-Bouman">
+<img class="invitadas-images" src="./images/Margaret_Hamilton.png" alt="imagen Margaret_Hamilton">
+</div>
+<div class="combo-imagen2">
+<img class="invitadas-images" src="./images/Univac.png" alt="Computadora Antigua">
+<img class="invitadas-images" src="./images/Computer.png" alt="Operadores de computadoras">
+<img class="invitadas-images" src="./images/susan-kare.png" alt="susan-kare">
+</div>
+</aside>
+
+<aside class="topicos" id="topicos">
+        <article class="container-topicos-title"> 
+        <h2 class="topicos-title">Algunos de </h2> <h2 class="topicos-subtitle"> nuestros temas</h2>
+        </article>
+<aside class="topicos-icons">
+        <article class="topicos-icons1">
+        <img  src="./images/icon1.svg" alt="icono trabajo remoto">
+        <h4 class="topicos-subtitles-icons">Trabajo remoto</h4>
+        </article>
+        <article class="topicos-icons1">
+        <img  src="./images/icon2.svg" alt="icono programacion">
+        <h4 class="topicos-subtitles-icons">Repensando la <br> programacion</h4>
+        </article>
+        <article class="topicos-icons1">
+        <img  src="./images/icon3.svg" alt="icono codigo">
+        <h4 class="topicos-subtitles-icons">Bases del código</h4>
+        </article>  
+        <article class="topicos-icons1">
+        <img src="./images/icon4.svg" alt="icono seguridad informatica">
+        <h4 class="topicos-subtitles-icons">Seguridad informática</h4>
+        </article>
+</aside>
+</aside>
+
+<aside class="novedades">
+        <article class="container-novedades-title">
+<h2 class="novedades-title">¿Quéres </h2> <h2 class="novedades-title">las</h2> <h2 class="novedades-title"> ultimas</h2> <h2 class="novedades-title">novedades?</h2>
+        </article>
+<button class="novedades-boton">ESCUCHÁ LOS EPISODIOS</button>
+
+</aside>
+
+</main>  
+
+<footer class="footer">
+<h6 class="footer-subtitle">© 2019- Kevin Misael Sueldo Taié</h6>
+<aside class="footer-icons-social-media">
+<a href="https://www.spotify.com/ar/" class="fa fa-spotify fa-2x" aria-hidden="true"></a>
+<a href="https://www.instagram.com/?hl=es-la" class="fa fa-instagram fa-2x" aria-hidden="true"></a>
+<a href="https://twitter.com/login?lang=es" class="fa fa-twitter fa-2x" aria-hidden="true"></a>
+<a href="https://www.facebook.com/" class="fa fa-facebook-official fa-2x" aria-hidden="true"></a>
+<a href="https://web.telegram.org/" class="fa fa-telegram fa-2x" aria-hidden="true"></a>
+</aside>
+</footer>
+
+
+<script src="https://use.fontawesome.com/1367490ec0.js"></script>
+</body>
+
+</html>

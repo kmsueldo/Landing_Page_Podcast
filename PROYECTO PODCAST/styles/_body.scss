@@ -1,0 +1,288 @@
+@media (min-width:766px){
+main{
+    .container-title{    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 18%;
+    padding-left: 5%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 0;
+    .title{
+    display: flex;
+    font-family: $font-titles;
+    font-size: 4rem;
+    margin-top: 0%;
+    margin-left: 5%;
+    height: 46px;
+    font-weight: 100;
+    .tachado{
+    font-family: $font-titles;
+    font-size: 4rem;
+    text-decoration: line-through;
+    margin: 0;
+    margin-left: 2%;
+    padding-left: 3%;
+    }
+    }
+    .subtitle{        
+    font-family: $font-titles;
+    font-size: 4rem;
+    margin-top: 0%;
+    margin-left: 2%;
+    font-weight: 100;
+            }
+    }
+    .parrafo{
+    margin-top: 0%;
+    margin-left: 5.5%;
+    font-family: $font-parrafos;
+    font-size: 1rem;
+    line-height: 24px;
+    width: 600px;
+    p{
+        margin: 0;
+        padding: 0;
+    }
+    }
+    .boton-conoce{
+    width: 20%;
+    font-size: 1.1rem;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #00F3BB;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+    &:hover{
+        cursor: pointer;
+        background: linear-gradient(to right, #00F0B8, #0000FE);
+    }
+    }
+
+    .episodios{
+        background-image: $color-fondo-episodios;
+        height: 1200px;
+        width: 100%;
+        margin-left: 0;
+        clip-path: polygon(0 8%, 100% 0 , 100% 92%, 0 100%);
+        z-index: 0;
+        &-title{
+            font-family: $font-titles;
+            font-weight: 100;
+            color: #FFFFFF ;
+            font-size: 3rem;
+            padding-top: 15%;
+            padding-left: 18%;
+            margin-bottom: 0;
+        }
+        &-album{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around; 
+            margin-top: 7%;
+            padding-left: 5%;
+            width: 95%;
+            .album-1{
+                width: 45%;
+                margin: 0%;
+                margin-bottom: 5%;
+                border: 0px;
+            }
+            .album-2{
+                width: 45%;
+                margin: 0%;
+                margin-bottom: 5%;
+                border: 0px;
+            }
+            .album-3{
+                width: 45%;
+                margin: 0%;
+                border: 0px;
+            }
+            .album-4{
+                width: 45%;
+                margin: 0%;
+                border: 0px;
+            }
+        }
+    }
+
+    .history{
+        .history-section{
+        display: flex;
+        justify-content: space-around;
+        padding: 0%;
+            .history-image{
+            margin: 0;
+            padding: 0;
+            width: 40%;
+            height: auto;
+            position: relative;
+            transform: translate(5%, -20%);
+            }
+            .history-container-section{
+                margin-top: 10%;
+                .history-container-title{
+                display: flex;
+                flex-direction: row;
+                    .history-title{
+                    font-family: $font-titles;
+                    font-weight: 100;
+                    font-size: 3rem;
+                    }
+                    .history-subtitle{
+                    padding-left: 3%;
+                    font-family: $font-titles;
+                    font-weight: 100;
+                    font-size: 48px;
+                    }
+                }
+            .history-parrafo{
+            font-family: $font-parrafos;
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 5%;
+            width: 90%;
+            }
+        }
+                    
+        }
+    }
+
+    .invitadas{
+        .container-invitadas-title{
+            display: flex;            
+            margin-bottom: 5%; 
+            margin-left: 5%;       
+            .invitadas-title{
+            font-family: $font-titles;
+            font-size: 48px;
+            font-weight: 100;
+            padding-left: 5%;
+            margin-top: 0%;
+            margin-bottom: 0;
+            }
+            .invitadas-subtitle{
+            font-family: $font-titles;
+            font-size: 48px;
+            font-weight: 100;
+            margin: 0;
+            padding-left: 2%;
+            }
+        }
+        .combo-imagen1{
+            display: flex;
+            width: 100%;
+            .invitadas-images{
+                width: 33.3%;
+                height: auto;
+            }
+        }
+        
+        .combo-imagen2{
+            display: flex;
+            width: 100%;
+            .invitadas-images{
+                width: 33.3%;
+                height: auto;
+            }
+        }
+    }
+    .topicos{
+        .container-topicos-title{
+            display: flex;   
+            margin-left: 10%;     
+            .topicos-title{
+            font-family: $font-titles;
+            font-size: 3rem;
+            font-weight: 100;
+            margin-top: 10%;
+            }
+            .topicos-subtitle{
+            font-family: $font-titles;
+            font-size: 3rem;
+            font-weight: 100;
+            margin-top: 10%;
+            margin-left: 1%;
+            }
+        }
+        .topicos-icons{
+            display: flex;
+            justify-content: space-around;
+            margin: 10%;
+            margin-top: 5%;
+            .topicos-icons1{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 2%;
+            }
+            .topicos-subtitles-icons{
+            font-size: 1.5rem;
+            font-family: $font-subtitles;
+            
+            }
+            }
+    }
+
+    .novedades{
+        background-image: $color-fondo-episodios;
+        height: 550px;
+        clip-path: polygon(0 30%, 100% 0 , 100% 100%, 0 100%);
+        z-index: 0;
+        .container-novedades-title{
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 15%;
+            padding-left: 25%;
+            padding-right: 10%;
+            .novedades-title{
+            font-family: $font-titles;
+            font-weight: 100;
+            color: #FFFFFF;
+            font-size: 3rem;
+            padding-right: 2%;
+            }
+        }
+        .novedades-boton{
+            width: 30%;
+            height: 20%;
+            font-size: 1.1rem;
+            background-color: $color-boton-conoce;
+            font-family: 'IBM Plex Mono', monospace;
+            font-weight: bold;
+            margin-left: 38%;
+            margin-top: 5%;
+            padding: 2%;
+            &:hover{
+                cursor: pointer;
+                background: linear-gradient(to left, #00F0B8, #0000FE);
+            }
+            }
+    }
+
+}
+.footer{
+    display: flex;
+    align-items: baseline;
+    &-subtitle{
+    font-family: $font-parrafos;
+    font-size: 1rem;
+    text-align: center;
+    padding-left: 2%;
+    margin-left: 2%;
+    }
+    &-icons-social-media{
+        display: flex;
+        justify-content: flex-end;
+        width: 60%;
+    }
+    a{
+        margin: 2%;
+    }
+}
+}
